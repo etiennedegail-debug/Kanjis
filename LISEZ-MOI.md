@@ -1,48 +1,38 @@
-# Kanji — révision quotidienne · installation sur Android
+# Kanji — mise à jour : 176 kanji
 
-88 kanji (leçons 21 à 31), 6 nouveaux par jour, plafond à 16 cartes.
-Fonctionne **hors ligne** une fois installée. La progression est stockée sur ton téléphone.
+## Ce qui a changé depuis la dernière version
 
-## Pourquoi ce n'est pas un APK
+**+17 kanji du « Niveau 1 »** que tu as envoyés : les nombres 一二三四五六七八九十,
+plus 百 (cent), 千 (mille), 万 (dix mille), 円 (yen), et — ça règle la question
+que j'avais laissée ouverte — **田 (rizière), 山 (montagne), 川 (rivière)**.
 
-Un vrai APK demande le SDK Android et une signature. Une PWA donne le même résultat
-concret — icône sur l'écran d'accueil, plein écran, hors ligne — sans passer par le
-Play Store ni par l'activation des « sources inconnues ».
+**Choix fait pour toi, à valider :** ces 17 sont des bases très précoces (Niveau 1),
+donc je les ai mis directement en **rotation de révision immédiate** — comme les
+88 de l'été — plutôt que dans la file des « nouveaux » à découvrir un par un.
+L'idée : tu connais sûrement déjà ces concepts à l'oral (compter, les nombres),
+il s'agit surtout de rafraîchir leur forme écrite. Si en les voyant passer tu
+sens que certains sont vraiment neufs pour toi, note simplement « Raté » — le
+système les fera revenir plus souvent tout seul, aucune action de ta part à faire.
 
-## Installation (une fois, ~10 minutes)
+**Total : 176 kanji** (88 de l'été + 71 des leçons 12-20 + 17 du Niveau 1).
+Le reste ne change pas : les 71 sortent toujours dans l'ordre strict du classeur,
+le bouton de rejeu illimité est toujours là.
 
-Une PWA doit être servie en HTTPS pour s'installer. Le plus simple est GitHub Pages, gratuit.
+## Installation
 
-1. Crée un compte sur github.com si tu n'en as pas.
-2. Nouveau dépôt **public**, nommé par exemple `kanji`.
-3. « Add file » → « Upload files » → dépose les 5 fichiers de ce dossier
-   (`index.html`, `manifest.webmanifest`, `sw.js`, et les 3 `icon-*.png`). Commit.
-4. Onglet **Settings** → **Pages** → Source : `Deploy from a branch`, branche `main`, dossier `/ (root)`. Save.
-5. Attends ~1 minute. L'adresse apparaît : `https://TON-PSEUDO.github.io/kanji/`
-6. Ouvre cette adresse **dans Chrome sur ton Android**.
-7. Menu ⋮ → **Installer l'application** (ou « Ajouter à l'écran d'accueil »).
-
-C'est fini. L'icône 漢 est sur ton écran d'accueil. Coupe le wifi pour vérifier : ça marche toujours.
-
-## Si tu ne veux pas de GitHub
-
-Ouvre `index.html` directement depuis les fichiers de ton téléphone. Ça fonctionne,
-mais sans installation ni icône, et la progression est plus fragile (Chrome peut
-purger le stockage des fichiers locaux). Je le déconseille pour un usage quotidien.
-
-## Utilisation
-
-- **Espace** ou le bouton bleu : révéler
-- **1 / 2 / 3** : Raté / Difficile / Su
-- **T** ou le bouton « Ordre des traits » : voir le tracé animé
-- Le sceau 済 signifie que la journée est finie. Ferme l'appli.
-
-## Deux cartes marquées ⚑
-
-- **糸** : phrase d'exemple composée par Claude — ta fiche n'en donne aucune.
-- **日** : lecture on à vérifier sur ta fiche p. 317, le scan était illisible.
+Identique à la dernière fois : remplace les fichiers sur ton dépôt GitHub par
+ceux de ce dossier (mêmes noms). Le numéro de cache a changé (v2), donc l'appli
+se mettra à jour toute seule au prochain chargement — pas besoin de vider quoi
+que ce soit à la main.
 
 ## Crédits
 
-Tracés : [KanjiVG](http://kanjivg.tagaini.net) (Ulrich Apel), licence CC BY-SA 3.0.
-Contenu des fiches : Direct Japanese / Institut Japonais de Langues, à usage personnel.
+Tracés : KanjiVG (Ulrich Apel), CC BY-SA 3.0.
+
+## Mise à jour du rythme (31 août, second ajustement)
+
+**Rythme des nouveaux : 2/jour** (pas 6, pas 3 — on est passés directement à 2
+après réflexion). Les 71 nouveaux s'écoulent en ~5 semaines au lieu de 12 jours :
+de quoi les ancrer solidement avant que le prochain classeur arrive, sans se
+retrouver à sec pendant des semaines en attendant. Cache mis à jour (v3),
+l'appli se rafraîchira toute seule.
