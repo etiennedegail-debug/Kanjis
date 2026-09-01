@@ -1,7 +1,7 @@
 {
   "name": "Kanji — année 2",
   "short_name": "漢字",
-  "description": "159 kanji : les 88 déjà appris + les 71 du deuxième classeur, dans l'ordre des leçons.",
+  "description": "Les 88 kanji des leçons 21 à 31, en doses quotidiennes.",
   "lang": "fr",
   "start_url": "./index.html",
   "scope": "./",
