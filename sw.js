@@ -1,5 +1,5 @@
 // Service worker : l'appli doit fonctionner sans réseau, dans le métro comme au réveil.
-const CACHE = "kanji-annee2-v5";
+const CACHE = "kanji-verifie-v1";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest",
                "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png"];
 
